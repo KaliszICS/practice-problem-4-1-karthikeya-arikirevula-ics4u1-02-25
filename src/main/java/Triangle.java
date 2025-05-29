@@ -8,10 +8,10 @@ public class Triangle { //notice that it starts with a capital letter
 	private double angle2;
 	private double angle3;
 
-	//Constructor
+	//Constructor - runs when the object is created
 	public Triangle(double side1, double s2, double s3, double a1, double a2, double a3) {
 		this.side1 = side1;
-		this.side2 = s2;
+		side2 = s2;
 		this.side3 = s3;
 		this.angle1 = a1;
 		this.angle2 = a2;
